@@ -1,12 +1,12 @@
-package com.samp.blog.test;
+package com.sam.blog.test;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.samp.blog.model.RoleType;
-import com.samp.blog.model.User;
-import com.samp.blog.repository.UserRepository;
+import com.sam.blog.model.RoleType;
+import com.sam.blog.model.User;
+import com.sam.blog.repository.UserRepository;
 
 @RestController
 public class DummyTestController {

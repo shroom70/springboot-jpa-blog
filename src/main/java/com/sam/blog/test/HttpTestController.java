@@ -1,4 +1,4 @@
-package com.samp.blog.test;
+package com.sam.blog.test;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
