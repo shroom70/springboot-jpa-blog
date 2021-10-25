@@ -6,10 +6,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class TempTestController {
 	
-	@GetMapping("/temp/home")
-	public String tmepHome(){
+//	@GetMapping("/temp/home")
+//	public String tempHome(){
+//		System.out.println("tempHome()");
+//		return "/home.html";
+//	}
+	
+	@GetMapping("/temp/jsp")
+	public String tempJSP(){
 		System.out.println("tempHome()");
-		return "/home.html";
+		return "home";
 	}
 
 }
